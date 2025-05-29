@@ -58,9 +58,22 @@ Controls:
 - frame_height = 576
 
 
+
+
+## How It Works 🔍
+**Face Detection** : Uses dlib's HOG-based face detector
+
+**Facial Landmarks** : 68-point landmark detection
+
+**Eye Aspect Ratio** : Calculates ratio of eye width to height
+
+**Mouth Aspect Ratio** : Calculates ratio of mouth opening
+
+**Head Pose** : Estimates head orientation using solvePnP
+
+
 ### Project Structure 📂
- ```bash
-drowsiness-detection/
+   ```bash
 ├── drowsiness_detection.py       # Main script
 ├── EAR.py                        # Eye Aspect Ratio calculations
 ├── MAR.py                        # Mouth Aspect Ratio calculations
@@ -69,6 +82,7 @@ drowsiness-detection/
 │   └── shape_predictor_68_face_landmarks.dat
 ├── requirements.txt              # Dependencies
 └── README.md
+
 
 
 
