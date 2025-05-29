@@ -33,21 +33,20 @@ A real-time computer vision system that detects signs of driver drowsiness and d
    pip install -r requirements.txt
 
  3. Download the facial landmark predictor:
-- Download shape_predictor_68_face_landmarks.dat
+- Download http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2
 - Extract and place it in dilb_shape_predictor/ directory
 
  
- 
- 
- 
- ### Usage 🚀
-1.
+
+    ## Usage 🚀
+
   ```bash
    python drowsiness_detection.py
 
-
 Controls:
 - Press q to quit the application
+
+
 
 
 
@@ -59,7 +58,7 @@ Controls:
 - frame_height = 576
 
 
-## Project Structure 📂
+### Project Structure 📂
 drowsiness-detection/
 ├── drowsiness_detection.py       # Main script
 ├── EAR.py                        # Eye Aspect Ratio calculations
